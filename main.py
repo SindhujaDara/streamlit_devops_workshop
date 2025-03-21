@@ -15,8 +15,6 @@ if st.button("Aloha", type="tertiary"):
 
 st.text_input('Please enter your name')
 
-import streamlit as st
-
 sentiment_mapping = ["one", "two", "three", "four", "five"]
 selected = st.feedback("stars")
 if selected is not None:
